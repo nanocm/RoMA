@@ -255,9 +255,9 @@ The input image is first divided into patches, and high-value patches are select
 
 For implementation of each task, please check the corresponding folder for more details.
 
-* [Scene Classification](https://github.com/Fengxiang23/RoMA/tree/main/Scene%20Classification) 
-* [Change Detection](https://github.com/Fengxiang23/RoMA/tree/main/Change%20Detection)
-* [Semantic Segmentation](https://github.com/Fengxiang23/RoMA/tree/main/Semantic%20Segmentation)
+* [Scene Classification](https://github.com/MiliLab/RoMA/tree/main/Scene%20Classification) 
+* [Change Detection](https://github.com/MiliLab/RoMA/tree/main/Change%20Detection)
+* [Semantic Segmentation](https://github.com/MiliLab/RoMA/tree/main/Semantic%20Segmentation)
 
 # 📈Scaling Behavior
 
@@ -279,7 +279,7 @@ Mamba’s performance also improves with increasing model size. We conduct exten
 
 # 🚀Pretraining
 
-For environment setup and pretraining instructions, please refer to [RoMA/requirements.txt](https://github.com/Fengxiang23/RoMA/blob/main/RoMA/requirements.txt)  and [RoMA/train.sh](https://github.com/Fengxiang23/RoMA/blob/main/RoMA/train.sh).
+For environment setup and pretraining instructions, please refer to [RoMA/requirements.txt](https://github.com/MiliLab/RoMA/blob/main/RoMA/requirements.txt)  and [RoMA/train.sh](https://github.com/MiliLab/RoMA/blob/main/RoMA/train.sh).
 
 # 🎯Checkpoints
 
