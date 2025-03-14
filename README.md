@@ -11,6 +11,10 @@
     </h5>
 </div>
 
+<h5 align="center">
+<a href="https://huggingface.co/initiacms/RoMA"> <img src="https://img.shields.io/badge/🤗-Checkpoints-9C276A.svg"></a> <a href="https://arxiv.org/abs/-2503.10392"> <img src="https://img.shields.io/badge/Arxiv-2503.10392-b31b1b.svg?logo=arXiv"></a>
+</h5>
+
 # 📚 Contents
 
 - [News](#news)
@@ -20,11 +24,12 @@
 - [Scaling Behavior](#scaling-behavior)
 - [Pretraining](#pretraining)
 - [Checkpoints](#checkpoints)
-- [Acknowledges](#acknowledges)
+- [Citation](#citation)
+- [Acknowledgement](#acknowledgement)
 
 # 🔥News
 
-* placeholder
+* **[2025.03.13]**  The paper is available on arXiv.
 
 # 📄Abstract
 
@@ -284,6 +289,19 @@ For environment setup and pretraining instructions, please refer to [RoMA/requir
 # 🎯Checkpoints
 
 We provide our pretrained weights in <a href="https://pan.baidu.com/s/1e7VOvca7894hugM-f2UitQ?pwd=e1up">Baidu</a> & <a href="https://huggingface.co/initiacms/RoMA">Hugging Face</a>.
+
+# 🔗Citation
+
+If you find RoMA helpful, please consider citing:
+
+```latex
+@article{wang2025roma,
+  title={RoMA: Scaling up Mamba-based Foundation Models for Remote Sensing},
+  author={Fengxiang Wang and Hongzhen Wang and Yulin Wang and Di Wang and Mingshuo Chen and Haiyan Zhao and Yangang Sun and Shuo Wang and Long Lan and Wenjing Yang and Jing Zhang},
+  journal={arXiv preprint arXiv:2503.10392},
+  year={2025}
+}
+```
 
 # 🤝Acknowledgement
 
