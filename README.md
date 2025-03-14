@@ -12,7 +12,7 @@
 </div>
 
 <h5 align="center">
-<a href="https://huggingface.co/initiacms/RoMA"> <img src="https://img.shields.io/badge/🤗-Checkpoints-9C276A.svg"></a> <a href="https://arxiv.org/abs/-2503.10392"> <img src="https://img.shields.io/badge/Arxiv-2503.10392-b31b1b.svg?logo=arXiv"></a>
+<a href="https://huggingface.co/initiacms/RoMA"> <img src="https://img.shields.io/badge/🤗-Checkpoints-9C276A.svg"></a> <a href="https://arxiv.org/abs/2503.10392"> <img src="https://img.shields.io/badge/Arxiv-2503.10392-b31b1b.svg?logo=arXiv"></a>
 </h5>
 
 # 📚 Contents
@@ -29,7 +29,7 @@
 
 # 🔥News
 
-* **[2025.03.13]**  The paper is available on arXiv.
+* **[2025.03.13]**  The paper is available on arXiv(http://arxiv.org/abs/2503.10392).
 
 # 📄Abstract
 
