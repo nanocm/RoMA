@@ -29,7 +29,7 @@
 
 # 🔥News
 
-* **[2025.03.13]**  The paper is available on arXiv(http://arxiv.org/abs/2503.10392).
+* **[2025.03.13]**  The paper is available on [arXiv](http://arxiv.org/abs/2503.10392).
 
 # 📄Abstract
 
