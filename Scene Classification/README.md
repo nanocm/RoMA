@@ -51,6 +51,6 @@ sh base.sh
 
 ## Checkpoints
 
-We provide the finetuned models for the [base](https://pan.baidu.com/s/1WMZizLPY6amfK_ZVg_zCPg?pwd=8eje).
+We provide the finetuned models for the -.
 
 The large model will be public soon
