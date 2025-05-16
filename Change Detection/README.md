@@ -49,7 +49,7 @@ The file structure for OSCD  is as follows:
 
 For OSCD, we follow [MTP](https://github.com/ViTAE-Transformer/MTP) to process the original image into patches of 96*96. 
 
-Data link for OSCD: [Baidu](https://pan.baidu.com/s/1dqSYiSje7ue3G1k3mNxv-Q?pwd=x17r) & [Google Drive](https://drive.google.com/drive/folders/183b6K6gk8K3vWAAM7fVhUlPi_dnRVuwM?usp=drive_link)
+Data link for OSCD: -
 
 ## 3. Training & Evaluation
 
@@ -70,4 +70,4 @@ mamba_base_oscd.pth \
 
 ## 4. Checkpoints
 
-Checkpoint link for OSCD: [Baidu](https://pan.baidu.com/s/1dqSYiSje7ue3G1k3mNxv-Q?pwd=x17r) & [Google Drive](https://drive.google.com/drive/folders/183b6K6gk8K3vWAAM7fVhUlPi_dnRVuwM?usp=drive_link)
+Checkpoint link for OSCD: -
