@@ -43,4 +43,4 @@ sh ss.sh
 
 ## Checkpoints
 
-We provide the pretrained models for the [base](https://pan.baidu.com/s/1EWHjTeJNRr5nRzWkTxP1VA?pwd=yf3n) and [large](https://pan.baidu.com/s/1oNilz9RSpWOGDkS01pdB6g?pwd=qh6r)
+We provide the pretrained models for the [base](-) and [large](-)
