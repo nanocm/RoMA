@@ -1,20 +1,3 @@
-
-<p align="center">
-
-  <h2 align="center"><strong>RoMA: Scaling up Mamba-based Foundation Models for Remote Sensing</strong></h2>
-
-<div align="center">
-<h5>
-<em>Fengxiang Wang<sup>1</sup>, Hongzhen Wang<sup>2 †</sup>, Yulin Wang<sup>2</sup>, Di Wang<sup>3</sup>, Mingshuo Chen<sup>4</sup>, Haiyan Zhao<sup>2</sup>,<br/> Yangang Sun<sup>2</sup>, Shuo Wang<sup>2</sup>, Long Lan<sup>1</sup>, Wenjing Yang<sup>1 †</sup>, Jing Zhang<sup>3 †</sup> </em>
-    <br><br>
-       	<sup>1</sup> National University of Defense Technology, China, <sup>2</sup> Tsinghua University, China, <br/> <sup>3</sup> Wuhan University, China, <sup>4</sup> Beijing University of Posts and Telecommunications, China
-    </h5>
-</div>
-
-<h5 align="center">
-<a href="https://huggingface.co/initiacms/RoMA"> <img src="https://img.shields.io/badge/🤗-Checkpoints-9C276A.svg"></a> <a href="https://arxiv.org/abs/2503.10392"> <img src="https://img.shields.io/badge/Arxiv-2503.10392-b31b1b.svg?logo=arXiv"></a>
-</h5>
-
 # 📚 Contents
 
 - [News](#news)
@@ -29,7 +12,6 @@
 
 # 🔥News
 
-* **[2025.03.13]**  The paper is available on [arXiv](http://arxiv.org/abs/2503.10392).
 
 # 📄Abstract
 
@@ -246,7 +228,7 @@ The input image is first divided into patches, and high-value patches are select
     </tr>
     <tr>
       <td>RoMA</td>
-      <td><a href="https://pan.baidu.com/s/1e7VOvca7894hugM-f2UitQ?pwd=e1up">Baidu</a> & <a href="https://huggingface.co/initiacms/RoMA">Hugging Face</a>
+      <td>-
 </td>
       <td>Mamba-B</td>
       <td>85M</td>
@@ -260,53 +242,25 @@ The input image is first divided into patches, and high-value patches are select
 
 For implementation of each task, please check the corresponding folder for more details.
 
-* [Scene Classification](https://github.com/MiliLab/RoMA/tree/main/Scene%20Classification) 
-* [Change Detection](https://github.com/MiliLab/RoMA/tree/main/Change%20Detection)
-* [Semantic Segmentation](https://github.com/MiliLab/RoMA/tree/main/Semantic%20Segmentation)
+* [Scene Classification](https://github.com/nanocm/RoMA//tree/main/Scene%20Classification) 
+* [Change Detection](https://github.com/nanocm/RoMA/tree/main/Change%20Detection)
+* [Semantic Segmentation](https://github.com/nanocm/RoMA/tree/main/Semantic%20Segmentation)
 
 # 📈Scaling Behavior
-
-<figure>
-<img src="assets/image-20250312111728161.png">
-<figcaption align = "center"><b>Figure 2: Scaling with Data Volume. 
- </b></figcaption>
-</figure>
-
-Mamba shows a clear performance boost on downstream tasks as the pretraining data volume grows. We pretrain the Mamba-Base model with RoMA across various data scales and evaluate its performance in the downstream tasks. As illustrated in Figure 2, larger datasets lead to significant improvements. Mamba-based RSFMs exhibit no significant performance bottlenecks across a broad pretraining data scale from 62.5K to 4M, achieving data learning capabilities on par with ViT-based RSFMs. 
-
-<figure>
-<img src="assets/image-20250312112103330.png">
-<figcaption align = "center"><b>Figure 3: Scaling with Model Size. 
- </b></figcaption>
-</figure>
 
 Mamba’s performance also improves with increasing model size. We conduct extensive pretraining on four model variants—Tiny, Small, Base, and Large—following the configurations in our code. As shown in Figure 3, larger models consistently achieve superior results on downstream tasks. Although Mamba-Large surpasses Mamba-Base in AID dataset, its performance gain remains limited, likely due to insufficient pretraining. With only 300 epochs on 4 million samples, the training may not be adequate for a 297M-parameter model. Due to experimental constraints, we did not extend pretraining to 800 epochs as in MAE. The OSCD and SpaceNet experiments are ongoing, with updates to follow. However, these results do not alter our key findings: Mamba-based RSFMs pretrained with RoMA demonstrate performance gains as model parameters scale. 
 
 # 🚀Pretraining
 
-For environment setup and pretraining instructions, please refer to [RoMA/requirements.txt](https://github.com/MiliLab/RoMA/blob/main/RoMA/requirements.txt)  and [RoMA/train.sh](https://github.com/MiliLab/RoMA/blob/main/RoMA/train.sh).
+For environment setup and pretraining instructions, please refer to [RoMA/requirements.txt](https://github.com/nanocm/RoMA/blob/main/RoMA/requirements.txt)  and [RoMA/train.sh](https://github.com/nanocm/RoMA/blob/main/RoMA/train.sh).
 
 # 🎯Checkpoints
 
-We provide our pretrained weights in <a href="https://pan.baidu.com/s/1e7VOvca7894hugM-f2UitQ?pwd=e1up">Baidu</a> & <a href="https://huggingface.co/initiacms/RoMA">Hugging Face</a>.
+We provide our pretrained weights in -.
 
 # 🔗Citation
 
-If you find RoMA helpful, please consider citing:
-
-```latex
-@article{wang2025roma,
-  title={RoMA: Scaling up Mamba-based Foundation Models for Remote Sensing},
-  author={Fengxiang Wang and Hongzhen Wang and Yulin Wang and Di Wang and Mingshuo Chen and Haiyan Zhao and Yangang Sun and Shuo Wang and Long Lan and Wenjing Yang and Jing Zhang},
-  journal={arXiv preprint arXiv:2503.10392},
-  year={2025}
-}
-```
 
 # 🤝Acknowledgement
 
-* [ARM](https://github.com/OliverRensu/ARM/tree/main): Autoregressive Pretraining with Mamba in Vision.
-* [MTP](https://github.com/ViTAE-Transformer/MTP): MTP: Advancing Remote Sensing Foundation Model via Multi-Task Pretraining.
-* [RSP](https://github.com/ViTAE-Transformer/RSP): An Empirical Study of Remote Sensing Pretraining.
-* [open-cd](https://github.com/likyoo/open-cd): An open source change detection toolbox based on a series of open source general vision task tools.
-* [mmcv](https://github.com/open-mmlab/mmcv), [mmsegmentation](https://github.com/open-mmlab/mmsegmentation): OpenMMLab Toolbox.
+-
